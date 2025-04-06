@@ -24,3 +24,40 @@ header h1 {
   padding-left: 8px;
   margin-bottom: 20px;
 }
+
+ /*Main Layout*/
+ main article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+}
+
+/*Image Styling*/
+article img {
+  width: 100%;
+  height: auto;
+  border-right: 1px solid #ccc;
+}
+
+/*Text Content*/
+.text-content h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.text-content h2 span {
+  color: #d2691e;
+  font-weight: bold;
+}
+
+.text-content p {
+  margin-bottom: 1.3em;
+  font-size: 1rem;
+}
+
+/*Lead-in paragraph*/
+.text-content p.intro {
+  font-weight: bold;
+}
