@@ -61,3 +61,35 @@ article img {
 .text-content p.intro {
   font-weight: bold;
 }
+
+ /*Bold questions*/
+ .text-content p strong {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+/*Footer*/
+footer {
+  margin-top: 30px;
+  font-size: 0.8rem;
+  color: #555;
+  text-align: left;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+/*Responsive Layout for Mobile*/
+@media screen and (max-width: 768px) {
+  main article {
+    grid-template-columns: 1fr;
+  }
+
+  article img {
+    margin-bottom: 20px;
+  }
+
+  .text-content h2 {
+    font-size: 1.5rem;
+  }
+}
