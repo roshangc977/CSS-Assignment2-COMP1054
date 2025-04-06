@@ -1,0 +1,26 @@
+/*Body Styling*/
+body {
+  font-family: Georgia, serif;
+  color: #1a1a1a;
+  line-height: 1.7;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/*Container*/
+#container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/*Header*/
+header h1 {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: #f28c00;
+  border-left: 3px solid #d2a150;
+  padding-left: 8px;
+  margin-bottom: 20px;
+}
